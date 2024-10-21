@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ui-builder">
+    <div class="left-sidebar">
+      <h3>Components</h3>
+      <div id="components">
+        <!-- Components will be listed here (e.g., Text, Image, Button) -->
+      </div>
+    </div>
+
+    <div class="canvas" id="canvas">
+      <h3>Drag components here</h3>
+      <!-- User builds the layout here -->
+    </div>
+
+    <div class="right-sidebar">
+      <h3>Layout JSON</h3>
+      <textarea id="json-output"></textarea>
+    </div>
+  </div>
+
+  <script src="ui-builder.js"></script>
+</body>
+</html>
